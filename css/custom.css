@@ -1,0 +1,58 @@
+:root {
+    --primary: #1A1D1B;
+    --secondary: #257939;
+    --black: #000000;
+    --white: #ffffff;
+    --bg-color: #EEF0EE;
+    --body-font: 'Inter', sans-serif;
+}
+body {
+    background-color: var(--bg-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--primary);
+}
+a, button {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    transition: all 0.4s;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 21px;
+}
+h6 {
+    font-size: 16px;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.fs-21 {
+    font-size: 21px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Header Area Style */
