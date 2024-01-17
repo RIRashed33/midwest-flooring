@@ -14,14 +14,14 @@
 <body>
     <header class="header-area">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-auto">
                     <div class="mobile-header">
                         <a href="#" class="site-logo">
                             <img src="./img/logo-black.svg" alt="site_logo" class="black-logo">
                             <img src="./img/logo-white.svg" alt="site_logo" class="white-logo">
                         </a>
-                        <button class="hamburger-icon" data-bs-toggle="collapse" data-bs-target="#main_navmenu">
+                        <button class="hamburger-icon" data-bs-toggle="collapse" data-bs-target="#main_navmenu" onclick="document.body.classList.toggle('active-menu')">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -31,7 +31,7 @@
                 <div class="col-md navbar-expand-md">
                     <nav class="navmenu collapse navbar-collapse" id="main_navmenu">
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li class="current-menu-item"><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Carpet</a></li>
                             <li><a href="#">Hard Surface</a></li>
@@ -55,10 +55,10 @@
 
     </main>
 
-    <footer class="footer-area">
+    <footer class="footer-area pt-lg-5">
         <div class="container">
             <div class="footer-top">
-                <div class="row">
+                <div class="row g-4 justify-content-between">
                     <div class="col-md-auto">
                         <a href="" class="site-logo">
                             <img src="./img/logo-white.svg" alt="site_logo">
@@ -95,8 +95,8 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="row">
+            <div class="footer-bottom py-4">
+                <div class="row g-4 justify-content-between">
                     <div class="col-md-auto">
                         <div class="copyright-text">
                             <p>&copy; 2023 by Midwest Flooring</p>
