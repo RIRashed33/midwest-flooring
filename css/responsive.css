@@ -32,6 +32,15 @@
     nav.footer-nav {
         max-width: 250px;
     }
+    /* Main Area Style */
+
+}
+@media screen and (max-width: 1199px) {
+    .hero-product-content {
+        flex-direction: column;
+        align-items: stretch;
+        max-width: 480px;
+    }
 
 }
 @media screen and (max-width: 991px) {
@@ -42,7 +51,10 @@
     nav.navmenu ul {
         margin: 0 0 0 auto;
     }
-    /* Footer Area Style */
+    /* Main Area Style */
+    .brands-slider .single-brand-img {
+        padding: 0 24px;
+    }
 
 
 }
@@ -116,7 +128,10 @@
     nav.navmenu ul li.current-menu-item a {
         color: var(--secondary);
     }
-    /* Footer Area Style */
+    /* Main Area Style */
+    .brands-slider .single-brand-img {
+        padding: 0 16px;
+    }
 
     
 
