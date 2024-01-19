@@ -33,6 +33,10 @@
         max-width: 250px;
     }
     /* Main Area Style */
+    .product-type-imgs .product-imgs {
+        width: 112px;
+        height: 64px;
+    }
 
 }
 @media screen and (max-width: 1199px) {
@@ -44,6 +48,10 @@
 
 }
 @media screen and (max-width: 991px) {
+    .custom-gutter {
+        --bs-gutter-x: 24px;
+        --bs-gutter-y: 24px;
+    }
     /* Header Area Style */
     a.site-logo {
         max-width: 160px;
@@ -55,13 +63,36 @@
     .brands-slider .single-brand-img {
         padding: 0 24px;
     }
+    .about-boxes {
+        gap: 24px;
+        justify-content: start;
+    }
+    .single-product-type {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    span.large-text {
+        font-size: 64px;
+    }
 
 
 }
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 18px;
+    }
     /* Header Area Style */
     header.header-area {
-        padding: 12px 0;
+        padding: 16px 0;
     }
     body.active-menu a.site-logo img.white-logo {
         display: inline-block;
@@ -129,11 +160,69 @@
         color: var(--secondary);
     }
     /* Main Area Style */
+    section.midwest-section, section.full-width-text-section {
+        padding: 48px 0;
+    }
     .brands-slider .single-brand-img {
         padding: 0 16px;
     }
+    section.hero-section {
+        border-radius: 0;
+    }
+    .hero-content h1 {
+        margin-bottom: 48px;
+    }
+    .hero-product-content {
+        max-width: 340px;
+    }
+    .product-imgs {
+        width: 90px;
+        height: 50px;
+    }
+    a.circle-arrow-btn {
+        width: 50px;
+        height: 50px;
+    }
+    .single-product {
+        gap: 12px;
+        text-align: center;
+        padding: 12px;
+        border-radius: 12px;
+    }
+    .single-product h5 {
+        font-size: 16px;
+    }
+    .single-product-type:not(.single-product-type:last-child) {
+        margin-bottom: 24px;
+    }
+    .produt-type-details {
+        padding: 24px;
+    }
+    a.secondary-arrow-btn {
+        padding: 12px 48px 12px 24px;
+        background-position: top 18px right 18px;
+        background-size: 16px;
+    }
+    a.secondary-arrow-btn:hover {
+        background-position: top 18px right 18px;
+    }
+    span.large-text {
+        font-size: 48px;
+    }
 
     
+
+
+
+}
+@media screen and (max-width: 575px) {
+    .about-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .single-about-box {
+        width: 100%;
+    }
 
 
 
