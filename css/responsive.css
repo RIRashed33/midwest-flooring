@@ -166,7 +166,7 @@
     .brands-slider .single-brand-img {
         padding: 0 16px;
     }
-    section.hero-section {
+    section.hero-section, section.hero-2-section {
         border-radius: 0;
     }
     .hero-content h1 {
@@ -209,6 +209,27 @@
     span.large-text {
         font-size: 48px;
     }
+    .single-team-members {
+        gap: 24px;
+    }
+    .single-team:not(.single-team:last-child) {
+        margin-bottom: 48px;
+    }
+    section.solutions-section {
+        padding: 64px 0;
+    }
+    section.solutions-section .custom-gutter {
+        --bs-gutter-y: 48px;
+    }
+    .solutions-product {
+        gap: 24px;
+    }
+    .solutions-product-title {
+        padding: 24px;
+    }
+    .hero-2-content {
+        min-height: 100%;
+    }
 
     
 
@@ -222,6 +243,15 @@
     }
     .single-about-box {
         width: 100%;
+    }
+    .single-value-box span.circle-checkmark {
+        margin-bottom: 32px;
+    }
+    section.team-section {
+        text-align: center;
+    }
+    .single-team-members {
+        justify-content: center;
     }
 
 
