@@ -361,7 +361,7 @@ section.hero-2-section {
 .single-team:not(.single-team:last-child) {
     margin-bottom: 64px;
 }
-section.solutions-section, section.contact-section {
+section.solutions-section, section.contact-section, section.login-section {
     padding: 96px 0;
 }
 .solutions-product {
@@ -534,7 +534,7 @@ section.order-form-section {
 .form-product-summary {
     margin-bottom: 32px;
 }
-.form-product-summary, .form-order-info {
+.form-product-summary, .form-order-info, .login-form {
     padding: 32px;
     border-radius: 32px;
     background-color: var(--white);
@@ -633,4 +633,56 @@ button.form-submit-btn {
 button.form-submit-btn:hover {
     background-color: transparent;
     color: var(--secondary);
+}
+section.login-section {
+    background-image: url(../img/login-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+.login-left-box {
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(16px);
+    padding: 48px;
+}
+.business-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.single-business-benefit {
+    background-color: var(--white);
+    padding: 8px 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.single-business-benefit span {
+    display: inline-block;
+    line-height: 1;
+}
+.single-business-benefit span img {
+    max-height: 20px;
+    width: auto;
+}
+.single-business-benefit:first-child span img {
+    height: 18px;
+}
+.form-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 16px;
+}
+.form-bottom-content .privacy-terms a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+a.forgot-password {
+    color: var(--black);
+    line-height: 1.2;
 }

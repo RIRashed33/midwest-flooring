@@ -183,13 +183,13 @@
         color: var(--secondary);
     }
     /* Main Area Style */
-    section.midwest-section, section.full-width-text-section, section.order-form-section {
+    section.midwest-section, section.full-width-text-section, section.order-form-section, section.login-section {
         padding: 48px 0;
     }
     .brands-slider .single-brand-img {
         padding: 0 16px;
     }
-    section.hero-section, section.hero-2-section {
+    section.hero-section, section.hero-2-section, section.login-section {
         border-radius: 0;
     }
     .hero-content h1 {
@@ -264,6 +264,10 @@
     }
     .product-list-heading {
         margin-bottom: 32px;
+    }
+    .login-left-box, .login-form {
+        padding: 24px;
+        border-radius: 24px;
     }
 
     
