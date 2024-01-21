@@ -361,7 +361,7 @@ section.hero-2-section {
 .single-team:not(.single-team:last-child) {
     margin-bottom: 64px;
 }
-section.solutions-section {
+section.solutions-section, section.contact-section {
     padding: 96px 0;
 }
 .solutions-product {
@@ -392,4 +392,36 @@ a.right-arrow-link:hover {
 .solutions-product-image img {
     border-radius: 32px;
     width: 100%;
+}
+.contact-content {
+    display: flex;
+    align-items: center;
+}
+.contact-image {
+    width: calc(50% + 32px);
+}
+.contact-us-box {
+    border-radius: 32px;
+    background: var(--white);
+    box-shadow: 16px 16px 48px 8px rgba(0, 0, 0, 0.05);
+    padding: 64px;
+    width: calc(50% + 32px);
+    margin-left: -64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact-image img {
+    border-radius: 32px;
+}
+.single-contact-info {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #A7AFA9;
+}
+.single-contact-info > p {
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+.single-contact-info > h3 {
+    word-wrap: break-word;
 }
