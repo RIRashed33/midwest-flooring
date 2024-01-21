@@ -425,3 +425,102 @@ a.right-arrow-link:hover {
 .single-contact-info > h3 {
     word-wrap: break-word;
 }
+section.product-listing-section {
+    padding: 48px 0 56px;
+}
+.product-list-heading {
+    margin-bottom: 56px;
+}
+.breadcrumb-menu {
+    margin-bottom: 8px;
+}
+.breadcrumb-menu > * {
+    display: inline-block;
+    color: var(--primary);
+    line-height: 1.5;
+}
+.breadcrumb-menu > a {
+    text-decoration: underline;
+}
+.breadcrumb-menu > a:hover {
+    color: var(--secondary);
+}
+.product-list-content {
+    display: flex;
+    gap: 32px;
+}
+.poroduct-filter {
+    width: 295px;
+}
+.product-list {
+    width: calc(100% - 327px);
+}
+.list-single-product {
+    padding: 16px;
+    background-color: var(--white);
+    border-radius: 24px;
+    border: 1px solid #DDD;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--black);
+}
+.list-single-product > img {
+    width: 100%;
+    border-radius: 16px;
+}
+.list-product-title p {
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+.list-product-colors {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.list-product-colors img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+.list-product-colors span {
+    font-size: 14px;
+    line-height: 1.2;
+}
+section.pagination-section {
+    padding-bottom: 56px;
+}
+.pagination-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+}
+.pagination-content a {
+    color: #676D69;
+    padding: 0 4px;
+    font-weight: 500;
+}
+.pagination-content span {
+    width: 24px;
+    height: 24px;
+    background-color: var(--secondary);
+    color: var(--white);
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0 4px;
+    border-radius: 50%;
+}
+.pagination-content a:hover {
+    color: var(--secondary);
+}
+.pagination-content a.previous, .pagination-content a.next {
+    padding: 0 16px;
+    border-radius: 12px;
+    background: #C1CBC4;
+}
+.pagination-content a.previous:hover, .pagination-content a.next:hover {
+    background: var(--secondary);
+    color: var(--white);
+}

@@ -256,6 +256,12 @@
     .contact-us-box {
         padding: 32px;
     }
+    .product-list-content {
+        flex-direction: column;
+    }
+    .poroduct-filter, .product-list {
+        width: 100%;
+    }
 
     
 
