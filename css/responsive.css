@@ -183,7 +183,7 @@
         color: var(--secondary);
     }
     /* Main Area Style */
-    section.midwest-section, section.full-width-text-section {
+    section.midwest-section, section.full-width-text-section, section.order-form-section {
         padding: 48px 0;
     }
     .brands-slider .single-brand-img {
@@ -262,6 +262,9 @@
     .poroduct-filter, .product-list {
         width: 100%;
     }
+    .product-list-heading {
+        margin-bottom: 32px;
+    }
 
     
 
@@ -284,6 +287,19 @@
     }
     .single-team-members {
         justify-content: center;
+    }
+    .double-field {
+        flex-direction: column;
+    }
+    .form-product-summary, .form-order-info {
+        padding: 24px;
+        border-radius: 24px;
+    }
+    .double-field label {
+        width: 100%;
+    }
+    .radio-button-group {
+        column-gap: 16px;
     }
 
 
