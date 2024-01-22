@@ -68,6 +68,7 @@ p:last-child {
 a.primary-transparent-btn, a.secondary-btn {
     padding: 11px 16px;
     border-radius: 8px;
+    text-align: center;
     border: 1px solid #000;
     color: var(--primary);
     font-weight: 700;
@@ -685,4 +686,65 @@ section.login-section {
 a.forgot-password {
     color: var(--black);
     line-height: 1.2;
+}
+.product-color-price {
+    max-width: 590px;
+}
+ul.product-color-tab {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+ul.product-color-tab li a {
+    max-width: 105px;
+    border-radius: 16px;
+}
+ul.product-color-tab li a.active {
+    border: 5px solid var(--secondary);
+}
+ul.product-color-tab li a img {
+    border-radius: 16px;
+    width: 100%;
+}
+.roll-cut-price {
+    display: flex;
+    gap: 32px;
+}
+.single-spec-item > button {
+    display: block;
+    width: 100%;
+    text-align: start;
+    padding: 16px 0;
+    border-bottom: 1px solid #DDD;
+    position: relative;
+}
+.single-spec-item > button:after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: solid var(--primary);
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 0;
+    top: calc(50% - 3px);
+}
+.single-spec-content {
+    padding: 16px 0 16px 16px;
+}
+.single-spec-content p {
+    margin-bottom: 0;
+}
+.single-tab-image {
+    border-radius: 32px;
+    background: var(--white);
+    padding: 16px;
+    text-align: center;
+}
+.single-tab-image img {
+    width: 100%;
+    border-radius: 24px;
 }
